@@ -60,11 +60,11 @@ def play():
                 print_board()
                 player1_turn = True
             if hasThreeInRow(player1_tecken):
-                print('Player 1 hasThreeInRows!')
+                print('Player 1 has ThreeInRows!')
                 gameover = True
                 break
             elif hasThreeInRow(player2_tecken):
-                print('Player 2 hasThreeInRows!')
+                print('Player 2 has ThreeInRows!')
                 gameover = True
                 break
             elif fullbräda():
